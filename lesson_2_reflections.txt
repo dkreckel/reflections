@@ -5,4 +5,28 @@ Initializing a repository creates a starting point for Git.
 How is the staging area different from the working directory and the repository?  What value do you think if offers?
 
 The staging area is simple a place to set things up.  You can move forward from here or backtrack and do nothing.
-mv
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the staging area to the last commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Prior to making a commit you first add your file to the staging area.  The file with your change should be the only one there.
+
+What are some situations when branches would be helpful in keeping your history ogranized?  How would branches help?
+
+You could use branching when you want to try an alternatime method in your program.  This would preserve the original but allow you to experiment on the branch.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help you to see what is affected by each change.  It's basically a map or a timeline.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+The result is that all the changes from the master and the new version are brought together.  The diagram traces back where the changes came from in a timeline.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+One pro is that they are quicker.  A con, however, is that it could mess things up.  Therefore for conflicts it goes back to a manual process.
+
